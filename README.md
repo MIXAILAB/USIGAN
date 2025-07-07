@@ -1,7 +1,4 @@
 
-# USIGAN: Unbalanced Self-Information Feature Transport for Weakly Paired Image IHC Virtual Staining
-Trans Image on Processing is reveiewing... After review we will relase the code.
-=======
 [![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)
 
 

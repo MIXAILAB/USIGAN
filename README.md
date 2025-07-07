@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # USIGAN: Unbalanced Self-Information Feature Transport for Weakly Paired Image IHC Virtual Staining
 Trans Image on Processing is reveiewing... After review we will relase the code.
 =======
@@ -77,4 +77,4 @@ This source code is inspired by [CUT](https://github.com/taesungp/contrastive-un
 
 ## Contributions
 If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Hao Tang ([b.xiong@siat.ac.cn](b.xiong@siat.ac.cn)).
->>>>>>> 2dd3b7e (base)
+

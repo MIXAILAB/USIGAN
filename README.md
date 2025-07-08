@@ -73,5 +73,5 @@ python scripts/pearson_R.py
 This source code is inspired by [CUT](https://github.com/taesungp/contrastive-unpaired-translation) and [SIMGAN](https://github.com/xianchaoguan/SIM-GAN).
 
 ## Contributions
-If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Hao Tang ([b.xiong@siat.ac.cn](b.xiong@siat.ac.cn)).
+If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Bing Xiong ([b.xiong@siat.ac.cn](b.xiong@siat.ac.cn)).
 

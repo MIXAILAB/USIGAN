@@ -1,4 +1,3 @@
-
 [![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/Ha0Tang/AttentionGAN/blob/master/LICENSE.md)
 
 
@@ -7,7 +6,7 @@ The proposed  method introduces the concept of self-information by leveraging op
 ![s](assert/FigureAbstract.png)
 
 USIGAN: USIGAN: Unbalanced Self-Information Feature Transport for Weakly Paired  Image IHC Virtual Staining.<br>
-[Yue Peng](http://disi.unitn.it/~hao.tang/)<sup>1,2</sup>, [Bing Xiong](https://scholar.google.com/citations?user=4CQKG8oAAAAJ&hl=en)<sup>1,2</sup>, [Fuqiang Chen](http://www.robots.ox.ac.uk/~danxu/)<sup>1,2</sup>, [De Eybo](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en)<sup>1,2</sup>,[RanRan Zhang](http://disi.unitn.it/~sebe/)<sup>2</sup>,[Wanming Hu](http://disi.unitn.it/~sebe/)<sup>1</sup>,[Jing Cai](http://disi.unitn.it/~sebe/)<sup>3</sup> and [Wenjian Qin](http://disi.unitn.it/~sebe/)<sup>1,2</sup>. <br> 
+[Yue Peng](http://disi.unitn.it/~hao.tang/)<sup>1,2</sup>, [Bing Xiong](https://scholar.google.com/citations?user=4CQKG8oAAAAJ&hl=en)<sup>1,2</sup>, [Fuqiang Chen](http://www.robots.ox.ac.uk/~danxu/)<sup>1,2</sup>, [Deboch Eybo Abera](https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en)<sup>1,2</sup>,[RanRan Zhang](http://disi.unitn.it/~sebe/)<sup>2</sup>,[Wanming Hu](http://disi.unitn.it/~sebe/)<sup>1</sup>,[Jing Cai](http://disi.unitn.it/~sebe/)<sup>3</sup> and [Wenjian Qin](http://disi.unitn.it/~sebe/)<sup>1,2</sup>. <br> 
 <sup>1</sup>ShenZhen
 Institues of Advanced Technology, China.
 <sup>2</sup>University chinese academy of sciences, China, <sup>3</sup>Sun Yat-sen University Cancer Cente, China.<sup>4</sup>Department of Health Technology and Informatics, The Hong
@@ -29,7 +28,15 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ## Dataset Preparation
 Download the datasets using the following script. Please cite their paper if you use the data. 
-The IHC4BC dataset can be download [here](https://ihc4bc.github.io/). The MIST dataset can be download [here](https://link.springer.com/chapter/10.1007/978-3-031-43987-2_61).
+The original IHC4BC dataset can be download [here](https://ihc4bc.github.io/). The MIST dataset can be download [here](https://link.springer.com/chapter/10.1007/978-3-031-43987-2_61).
+
+If you want to reproduce our project, you can download our dataset from Baidu Pan: 
+
+```
+IHC4BC: https://pan.baidu.com/s/1jTILbVEQ7jluesxVZX5Q2A?pwd=h5c8 pwd: h5c8 
+
+MIST: https://pan.baidu.com/s/1z5VAIjjfySy0Ci4Wbp61Vg?pwd=qd94 pwd: qd94 
+```
 
 ## Pretrained Weigths
 Download the datasets using the following script. Please cite their paper if you use the data. 
@@ -58,6 +65,14 @@ you will use bash scripts/evaluate_score.sh -r /root/USIGAN/results -t HER2 -e U
 
 ### Calculate Content Pearson-R
 
+File Structure:
+```
+|-USIGAN
+|--|-fake # Virtual IHC
+|--|-gt  # Adjacent IHC
+|--|-source # H&E 
+```
+
 ```
 python scripts/eval_pathology_metric.py  --dataroot /path/experiment/results/stain_type  --expname experiment_name
 ```
@@ -74,4 +89,3 @@ This source code is inspired by [CUT](https://github.com/taesungp/contrastive-un
 
 ## Contributions
 If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Bing Xiong ([b.xiong@siat.ac.cn](b.xiong@siat.ac.cn)).
-

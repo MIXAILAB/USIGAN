@@ -42,6 +42,8 @@ MIST: https://pan.baidu.com/s/1z5VAIjjfySy0Ci4Wbp61Vg?pwd=qd94 pwd: qd94
 Download the datasets using the following script. Please cite their paper if you use the data. 
 The IHC4BC dataset can be download [here](https://pan.baidu.com/s/17kGl5vxDYclS3NgjLva5VQ?pwd=tip0). The MIST dataset can be download [here]( https://pan.baidu.com/s/1Lpdsq2oCqvutCvm0iWSrKg?pwd=tip0 ).
 
+Download from Hugging face: https://huggingface.co/BairdXiong/USIGAN/tree/main
+
 ## Train
 
 ```

@@ -14,7 +14,7 @@ Kong Polytechnic University,Hongkong China.<br>
 Under Reviewing by Trans Image on Processing. <br>
 The repository offers the official implementation of our paper in PyTorch.
 
-📃 <a href="https://arxiv.org/abs/2507.05843" target="_blank">Paper</a> • 🤗 <a href="[https://huggingface.co/R-J/StainFuser](https://huggingface.co/BairdXiong/USIGAN/tree/main)" target="_blank">Model Weights</a> 
+📃 <a href="https://arxiv.org/abs/2507.05843" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/BairdXiong/USIGAN/tree/main" target="_blank">Model Weights</a> 
 
 ## Installation
 

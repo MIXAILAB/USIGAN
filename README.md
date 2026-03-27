@@ -11,7 +11,7 @@ USIGAN: USIGAN: Unbalanced Self-Information Feature Transport for Weakly Paired 
 Institues of Advanced Technology, China.
 <sup>2</sup>University chinese academy of sciences, China, <sup>3</sup>Sun Yat-sen University Cancer Cente, China.<sup>4</sup>Department of Health Technology and Informatics, The Hong
 Kong Polytechnic University,Hongkong China.<br>
-Accepted by Trans Image on Processing. <br>
+🔥Accepted by Trans Image on Processing.🔥 <br>
 The repository offers the official implementation of our paper in PyTorch.
 
 📃 <a href="https://arxiv.org/abs/2507.05843" target="_blank">Paper</a> • 🤗 <a href="https://huggingface.co/BairdXiong/USIGAN/tree/main" target="_blank">Model Weights</a> 

@@ -31,6 +31,10 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 Download the datasets using the following script. Please cite their paper if you use the data. 
 The original IHC4BC dataset can be download [here](https://ihc4bc.github.io/). The MIST dataset can be download [here](https://link.springer.com/chapter/10.1007/978-3-031-43987-2_61).
 
+Huggingface download link:
+USIGAN_IHC4BC_MIST Dataset （https://huggingface.co/datasets/BairdXiong/USIGAN_IHC4BC_MIST）
+MIST Dataset （https://huggingface.co/datasets/BairdXiong/MIST）
+
 If you want to reproduce our project, you can download our dataset from Baidu Pan: 
 
 ```

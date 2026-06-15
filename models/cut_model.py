@@ -5,7 +5,7 @@ from . import networks
 from .patchnce import PatchNCELoss
 import util.util as util
 import torch.nn.functional as F
-from .MC_loss import MC_Loss,UMC_Loss,UMC_LossV2
+from .MC_loss import MC_Loss,UMC_Loss
 from .PCM_loss import PCSM_Loss,ComputeODModule
 import sys
 import torch.nn as nn    
